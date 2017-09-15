@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4c40aa"
+    tools:context="com.example.jbcaudill.happybirthday.MainActivity"
+    tools:layout_editor_absoluteY="81dp"
+    tools:layout_editor_absoluteX="0dp">
+
+    <ImageView
+        android:src="@drawable/bday"
+        android:layout_width="400dp"
+        android:layout_height="520dp"
+        android:scaleType="centerCrop"
+
+         />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Happy Birthday!"
+        android:background="#FFFFFF"
+        android:textColor="#f8551f"
+        android:textSize="50dp"
+
+        tools:layout_editor_absoluteY="327dp"
+        tools:layout_editor_absoluteX="16dp" />
+
+
+
+
+</android.support.constraint.ConstraintLayout>
